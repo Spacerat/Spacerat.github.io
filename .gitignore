@@ -2,6 +2,9 @@ _site
 .sass-cache
 .jekyll-metadata
 *.sublime-workspace
+dask-worker-space
+.python-version
+.ipynb_checkpoints
 
 .DS_Store
 .vscode

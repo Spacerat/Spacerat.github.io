@@ -12,7 +12,6 @@ Pimorize is an app I made which helps you memorize numbers (e.g. pi), by having 
 
 Links:
 
-~~[Pimorize for OS X](/downloads/PimorizeOSX.zip)~~ Doesn't currently run on latests OS.
-
 [Pimorize on Github](https://github.com/Spacerat/Pimorize)
 
+~~[Pimorize for OS X](/downloads/PimorizeOSX.zip)~~ Doesn't currently run on latest OS.

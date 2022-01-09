@@ -1,0 +1,61 @@
+Definitions
+    Uncertainty: the lack of complete certainty, i.e. the existence of more than one possibility.
+
+    Measurement: a quantatively expressed reduction of uncertainty based on one or more observations
+
+    Measurement of uncertainty: a set of probabilities assigned to a set of possibilities.
+
+    Risk: a state of uncertainty where some of the possibilities involve a loss, or some other underisrable outcome
+
+    Measurement of Risk: a set of possibilities each with quantified probabilities and quantified losses.
+        "e.g. we believe there is a 40% chance the oil well will be dry, causing $12m in costs"
+
+    Opportunity Loss (OL): The cost of a wrong decision
+    
+    Expected Opportunity Loss: The expected value of the cost of a wrong decision
+        EOL = (OL) * probability of being wrong
+
+    Expected Value of Information (EVI): The reduction in EOL resulting from new information
+        EVI = EOL_before - EOL_after
+
+    Expected Value of Perfect Information (EVPI): The reduction in EOL resulting from perfect information
+        EVPI = EOL_before
+
+    Expected Cost of Information (ECI):
+        - For a range of possible outcomes of a measurement
+            - The cost of each outcome
+            - The expected uncertainty reduction of each possible outcome
+        - A weight average of all costs and uncertainty reductions
+
+Principles:
+
+    Measurement Inversion Principle
+        In a decision model with a large number of uncertain variables, the economic value of measuring a
+        variable is usually inversely proportional to how much measurement attention it usually gets
+
+    Clarification Chain
+        1. If it matters at all, it is detectable/observable
+        2. If it is detectable, it can be detected as an amount or range of amounts
+        3. If it can be detected as a range of opssible amounts, it can be measured
+
+
+
+1. Define the problem (chapter 4)
+
+    Define a decision with _alternatives_.
+    Decompose into variables
+
+2. Determine what you know (chapter 5)
+
+    Get calibrated estimates for variables
+    
+3. Compute the value of additional information (chapters 6, 7)
+
+    Compute EVPI/EOL for variables
+
+4. Measure where information value is high (return to steps 2 and 3 until further measurement is not needed)
+5. Make a decision and act on it
+
+
+
+

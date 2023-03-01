@@ -54,7 +54,7 @@ E[F(x)] &= \sum_{x \in \{1..6\}} \Pr(x)F(x) \\
 \end{align}
 $$
 
-Given that you'll lose an average of -$260 per game, you really shouldn't want to play is - we'll call that your **default decision**. If you decide not to play, but I roll the decide to see what would have happened and it lands on a 5, you miss out on $60. That's **Opportunity Loss**. Since the chance of that happening is 2/3, the expected value of your opportunity loss, i.e. your **Expected Opportunity Loss**, is $40.
+Given that you'll lose an average of $260 per game, you really shouldn't want to play it, so we'll call "don't play the game" your **default decision**. If you decide not to play, but I roll the dice to see what would have happened and it lands on a 5, you miss out on $60. That's **Opportunity Loss**. Since the chance of that happening is 2/3, the expected value of your opportunity loss, i.e. your **Expected Opportunity Loss**, is $40.
 
 Here are the same definitions in handy table format:
 

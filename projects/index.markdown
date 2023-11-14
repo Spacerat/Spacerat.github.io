@@ -21,7 +21,7 @@ You can find the code for most of these at my [github](https://github.com/Space
 
 #### Games
 
-- [CollabPaint](https://paint.apps.veryjoe.com/ "CollabPaint") - Paint with friends in real-time.
+- [CollabPaint](https://paint.veryjoe.com/ "CollabPaint") - Paint with friends in real-time.
 - [Snakepong](https://veryjoe.com/Snakepong/ "Snakepong") - It's like pong but your paddle is a snake. Play against a friend on one keyboard, or against the AI.
 - [Automa](https://veryjoe.com/Automa/ "Automa") - Conway’s Game of Life in Javascript.
 - [Meteors](https://veryjoe.com/Meteors/ "Meteors") - A not-really-finished game where you bounce meteors into each other.

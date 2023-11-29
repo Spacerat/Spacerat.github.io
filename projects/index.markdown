@@ -4,7 +4,7 @@ title: Projects
 nav: yes
 ---
 
-This is a partial list of personal projects I have worked on. **These are hobby projects, and mostly very old**, and many of them are fairly unpolished, since the purpose of my projects has simply usually been to experiment with some new idea, programming tool or framework.
+This is a partial list of personal projects I have worked on. **These are hobby projects, and mostly very old**, and many of them are fairly unpolished, since the purpose of my projects has generally been to experiment with some new idea, programming tool or framework.
 
 You can find the code for most of these at my [github](https://github.com/Spacerat) page, which is also home to many more projects in various states of disrepair.
 

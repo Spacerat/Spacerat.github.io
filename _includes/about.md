@@ -1,6 +1,8 @@
-You're looking at the personal website for Joseph Atkins-Turkish, a programmer on a long-standing quest to actually keep all of his [projects](/projects) on one website for more than a year. This is my portfolio, but also a space to share my thoughts on life, food, social issues, tech, and anything else.
+You're looking at the personal website for Joseph Atkins-Turkish - software and data engineer since, amateur musician and even-more-amateur home cook.
 
-My programming interests are primarily machine learning, web development, game development, using code to further the Forces of Good, and any/all intersections.
+This website is my portfolio - check out my [projects](/projects)! But it's also a space to share my thoughts on life, food, social issues, tech, and anything else.
+
+My programming and professional interests are varied: web and product development, machine learning, game development, decision science, generally using code to further the Forces of Good, and any/all intersections of the above.
 
 Here are some of my web identitites:
 

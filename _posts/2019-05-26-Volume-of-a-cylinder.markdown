@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "I used the formula for the volume of a cylinder in real life for the first time ever and it went OK"
-date:   2019-05-26 12:23:37 -0700
+title: "I used the formula for the volume of a cylinder in real life for the first time ever and it went OK"
+date: 2019-05-26 12:23:37 -0700
 categories: maths
 ---
-
-_Note: the bulk of this post was written in November 2018 shortly after the incident occurred, but the post is dated 2019 because I'm slow at producing blog posts_
-
 
 For me, the phrase “pie dee over two squared aitch” (𝜋 (d½)² h) - also known as “pie are squared aitch” (𝜋r²h) - evokes images of university lectures; magnetic cylindrical rods, electric charge in a piece of wire. If you need to understand those things, you need to know how much space they take up in the world. Until the situation described here, I don’t think I've ever actually needed to calculate the volume of a cylinder outside of an exam.
 
@@ -55,7 +52,6 @@ The two vertical measurements gave me 23 - 17 = 6cm for the depth of the purée,
   </a>
   A batch of apple butter.
 </div>
-
 
 However, in retrospect I think I was being a bit cavalier with my measurements, rounding to the nearest 0.5 cm. If I were 0.25cm off the real measurements, how wrong could I be?
 

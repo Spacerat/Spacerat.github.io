@@ -1,4 +1,4 @@
-You're looking at the personal website for Joseph Atkins-Turkish - software and data engineer since, amateur musician and even-more-amateur home cook.
+You're looking at the personal website for Joseph Atkins-Turkish - software and data engineer, amateur musician and even-more-amateur home cook.
 
 This website is my portfolio - check out my [projects](/projects)! But it's also a space to share my thoughts on life, food, social issues, tech, and anything else.
 

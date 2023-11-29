@@ -16,12 +16,12 @@
 title: Very Joe
 email: spacerat3004@gmail.com
 description: >
-   Much website. Wow.
+  Much website. Wow.
 author: Joseph Atkins-Turkish
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://veryjoe.com" # the base hostname & protocol for your site
-twitter_username: thespacerat
-github_username:  spacerat
+# twitter_username: thespacerat
+github_username: spacerat
 
 # Build settings
 markdown: kramdown

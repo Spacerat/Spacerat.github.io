@@ -5,17 +5,19 @@ date:   2020-04-26 20:15:00 -0700
 categories: maths
 notebook: https://github.com/Spacerat/Spacerat.github.io/blob/master/_notebooks/2020-04-26-Parameter-Estimation.ipynb
 ---
-Let's say you're going to do some business modeling for a friend who's thinking of opening a flower shop, producing something like [this](https://www.getguesstimate.com/models/3206) at the end. If you ask your friend the following question...
+Let's say you're going to do some business modeling for a friend who's thinking of opening a flower shop, producing something like [this](https://www.getguesstimate.com/models/3206) at the end.
+
+If you ask your friend the following question...
 
 > Can you give me the scale and shape parameters of the lognormal distribution representing estimated customer spend?
 
 You're likely to be given a blank stare in response. You're more likely to find success with this line of questioning:
 
-> What would you estimate as the range of spending for 90% of customers? Do you think customers are most likely to spend in the middle of that, or closer to the bottom?
+> What do you think a top 95% customer is likely to spend? What about the bottom 5%? Do you think customers are most likely to spend in the middle of that, or closer to the bottom?
 
 Estimation is difficult, but if you're doing it at all, thinking about it in terms of percentiles tends to be an intuitive approach.
 
-Unfortunately, statistical software doesn't work this way. Distributions are parametrized in terms of means, standard deviations, shape parameters, and so on. So, how do we go from "90\% of customers spend between $10 and $90" to a probability distribution in software? 
+Unfortunately, statistical software doesn't work this way. Distributions are parametrized in terms of means, standard deviations, shape parameters, and so on. So, how do we go from "90% of customers spend between $10 and $90" to a probability distribution in software? 
 
 1. Find a [paper](https://www.johndcook.com/quantiles_parameters.pdf) titled _Determining distribution parameters from quantiles_
 2. Implement it in Python!
@@ -57,7 +59,7 @@ def show_percentiles(ax, dist, low, high):
     ax.fill_between(xs2, dist.pdf(xs2))
 ```
 
-If we estimate that 5\% of customers spend under $10, and 95\% spend under $90, then we can write that as
+If we estimate that 5% of customers spend under $10, and 95% spend under $90, then we can write that as
 
 $$
 \begin{align}
@@ -200,8 +202,8 @@ Sometimes, the best you have is your best guess, and it's much easier for people
 
 All of this has left me wondering: why isn't percentile parametrization more commonly found in maths packages and statistics libraries? I suppose it's just not a core functionality, and as we've seen it's pretty easy to implement if you need, but I feel like wider adoption of percentile parametrization could go a long way to making simple statistical modeling more accessible.
 
-One great exception is [Guesstimate](https://www.getguesstimate.com/) (of the Flower Shop example from earlier), a great tool which allows users to define and combine a wide variety of distributions using percentiles. That being said, you're limited to 90% confidence intervals and in Guesstimate, whereas here we've demonstrated that you can use any percentiles you like.
+One exception is [Guesstimate](https://www.getguesstimate.com/) (of the Flower Shop example from earlier), a great tool which allows users to define and combine a wide variety of distributions using percentiles. That being said, you're limited to 90% confidence intervals and in Guesstimate, whereas here we've demonstrated that you can use any percentiles you like.
 
-Ultiamtely, this all just scratches the surface of a very interesting topic. For example, [Quantile Parametrized-Distributions](http://www.metalogdistributions.com/images/KeelinPowley_QuantileParameterizedDistributions_2011.pdf) are parametrized with 1st, 10th, 50th and 90th percentiles. Unlike the normal and log-normal distributions which are forever symmetric and right-skewed, the 5 parameters of QPDs produce an appropriately skewed distribution. An implementation in Javascript which generalizes these ideas even further can be found [here](https://observablehq.com/@whilp/gqpd).
+Ultimately, this all just scratches the surface of a very interesting topic. For example, [Quantile Parametrized-Distributions](http://www.metalogdistributions.com/images/KeelinPowley_QuantileParameterizedDistributions_2011.pdf) are parametrized with 1st, 10th, 50th and 90th percentiles. Unlike the normal and log-normal distributions which are forever symmetric and right-skewed, the 5 parameters of QPDs produce an appropriately skewed distribution. An implementation in Javascript which generalizes these ideas even further can be found [here](https://observablehq.com/@whilp/gqpd).
 
-The math is clearly out there, some people are clearly taking interest in this, and now this implimentation is out there too. Next time you need to model something using estimates, consider using percentiles!
+The math is clearly out there, some people are clearly taking interest in this, and now this implimentation is out there too. Next time you need to model something, consider estimatimating some percentiles!

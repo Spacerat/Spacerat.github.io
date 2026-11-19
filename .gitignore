@@ -8,3 +8,5 @@ dask-worker-space
 
 .DS_Store
 .vscode
+.bundle
+vendor

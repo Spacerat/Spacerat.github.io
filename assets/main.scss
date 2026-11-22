@@ -63,6 +63,18 @@ blockquote.ai .chip {
     font-weight: 600;
 }
 
+// Star Gauge: a 29x29 grid of characters. Rows never wrap; the font shrinks so
+// 29 full-width characters fit the screen (minus page padding) on phones.
+.star-gauge-grid {
+    white-space: nowrap;
+    font-size: min(20px, calc((100vw - 40px) / 29));
+    line-height: 1.1;
+    letter-spacing: 0;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {

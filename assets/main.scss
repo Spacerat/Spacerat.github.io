@@ -37,6 +37,32 @@
     clear: both;
 }
 
+// AI-written content: minima's default blockquote, in red
+blockquote.ai {
+    border-left-color: #fca5a5;
+    color: #b91c1c;
+}
+
+// Chip: a small inline pill, e.g. <span class="chip">RiTa</span>
+.chip {
+    display: inline-block;
+    padding: 0.1em 0.6em;
+    border-radius: 999px;
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    font-size: 0.85em;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+// A chip used as a label inside a callout takes on its colour
+blockquote.ai .chip {
+    background: #fee2e2;
+    border-color: #fca5a5;
+    color: #b91c1c;
+    font-weight: 600;
+}
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
